@@ -18,6 +18,6 @@ I have added an additional button for 'Reset Filters'. If the user has applied a
 
 ### Deployment
 
-GitHub repo: https://github.com/pragyathakur07/spaceX
+GitHub repo: https://github.com/dheerajKumar6080/spacex-launcher
 
 Heroku link: https://spacexreactapp.herokuapp.com/
