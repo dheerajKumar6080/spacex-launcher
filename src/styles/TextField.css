@@ -1,0 +1,21 @@
+.text_style {
+    text-align: center;
+    margin-top: 20px;
+}
+.line_style {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: black;
+    margin: 5px auto;
+}
+#launchNo {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .line_style {
+      width: 70%;
+      margin-left: 35px;
+    }
+}

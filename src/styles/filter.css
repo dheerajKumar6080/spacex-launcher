@@ -1,0 +1,42 @@
+.conr-class{
+    margin: 5px 10px;
+}
+.column-class {
+    margin-top: 5px;
+}
+.filter-text {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.buttonClass {
+  margin-top: 10px;
+  background-color: #69BE28;
+  border-color: #69be28;
+  max-width: 84px;
+  min-width: 66px;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .buttonClass {
+      width: 100%;
+      margin-left: 11px;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
