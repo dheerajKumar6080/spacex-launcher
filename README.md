@@ -7,7 +7,7 @@ In the project directory, you can run:
 ### `npm run dev`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3006](http://localhost:3006) to view it in the browser.
+Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 ## About Project
 This project will help users list and browse all launches by SpaceX program. As per the requirement, this app is server-side rendered with webpack and babel. I have used all the API's mentioned in the requirements.
