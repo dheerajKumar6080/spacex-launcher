@@ -14,7 +14,6 @@ This project will help users list and browse all launches by SpaceX program. As 
 The user can see all the launch programs as per individual filters for launch year, launch success, land success, combination of any two or combination of all three.
 After applying filters, the url will change and page will be updated with latest records without refreshing. 
 If the page is refreshed with the applied filters in the URL – the resulting page is server side rendered & filters are again client side rendered.
-I have added an additional button for 'Reset Filters'. If the user has applied all the filters and it wants to go back to initial data, then they can use 'Reset Filter' button for updating the page with initial records.
 
 ### Deployment
 
