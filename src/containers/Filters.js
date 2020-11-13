@@ -108,7 +108,7 @@ const Filters = () => {
             <Row>
                 {button_getter('launch_success', 'btnlaunch')}
             </Row>
-                <TextField data={config.success_land} />
+                <TextField data={config.land} />
             <Row>
                 {button_getter('land_success', 'btnland')}
             </Row>
@@ -121,12 +121,12 @@ const Filters = () => {
             <Row>
                 <Col>
                     <Row className='filter-text'>{config.filters}</Row>                    
-                       <TextField textId={'launchNo'} data={config.yearTitle} />    
+                       <TextField textId={'launchNo'} data={config.year} />    
                        {renderLaunchYear()}                 
                    
                 </Col>
             </Row>   
-                <TextField data={config.success_launch} />
+                <TextField data={config.launch} />
 
                 {renderButtonsFilter()}
             </>
