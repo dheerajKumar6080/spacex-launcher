@@ -21,4 +21,4 @@ Performace : Please find the lighthouse report in html format for this applicati
 
 GitHub repo: https://github.com/dheerajKumar6080/spacex-launcher
 
-Heroku link: https://spacexreactapp.herokuapp.com/
+Heroku link: https://spacex-launcher.herokuapp.com/
