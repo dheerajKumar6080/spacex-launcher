@@ -109,7 +109,7 @@ const Filters = () => {
                 {button_getter('launch_success', 'btnlaunch')}
             </Row>
                 <TextField data={config.land} />
-            <Row>
+            <Row style = "margin-bottom: 18px">
                 {button_getter('land_success', 'btnland')}
             </Row>
             </>
