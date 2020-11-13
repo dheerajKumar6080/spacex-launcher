@@ -1,6 +1,7 @@
 .text_style {
     text-align: center;
     margin-top: 20px;
+    font-weight : 500
 }
 .line_style {
     display: block;
@@ -9,9 +10,7 @@
     background: black;
     margin: 5px auto;
 }
-#launchNo {
-    margin-top: 0;
-}
+
 
 @media screen and (max-width: 767px) {
     .line_style {
