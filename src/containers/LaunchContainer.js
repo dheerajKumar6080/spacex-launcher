@@ -50,7 +50,7 @@ const Launch = (props) => {
         } else if(launchPresent && landPresent) {
             launchPresent = launchPresent === "fals" ? false : true
             landPresent = landPresent === "fals" ? false : true
-            const url = config.launch_landurl.replace("{launchPresent}",launchPresent).replace("{landPresent}", landPresent);
+            const url = config.launch_landaddress.replace("{launchPresent}",launchPresent).replace("{landPresent}", landPresent);
             getFilterApidata(url);
         } else if(yearPresent) {
             let ldata = props.data.filter(element => {

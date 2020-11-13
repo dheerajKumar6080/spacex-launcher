@@ -27,8 +27,10 @@ app.get(['/', '/launchPage'], (req, res) => {
     const indexFile = path.resolve('./build/index.html');
     fs.readFile(indexFile, 'utf8', (err, data) => {
       if (err) {
+        res.setHeader('Cache-Control', 'max-age=31536000')
         return res.status(500).send('Oops, better luck next time!');
-      }      
+      }    
+      res.setHeader('Cache-Control', 'max-age=31536000')  
         return res.send(
             data
             .replace('<div id="root"></div>', `<div id="root">${app}</div>`)

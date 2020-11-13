@@ -9,5 +9,6 @@ export const config = {
     firsturl: 'https://api.spacexdata.com/v3/launches?limit=100',
     launchadress: 'https://api.spaceXdata.com/v3/launches?limit=100&launch_success={isLaunch}',
     launch_landaddress: 'https://api.spaceXdata.com/v3/launches?limit=100&launch_success={isLaunch}&land_success={isLand}',
-    all: 'https://api.spaceXdata.com/v3/launches?limit=100&launch_success={isLaunch}&land_success={isLand}&launch_year={isYear}'
+    all: 'https://api.spaceXdata.com/v3/launches?limit=100&launch_success={launchPresent}&land_success={landPresent}&launch_year={yearPresent}'
 }
+
